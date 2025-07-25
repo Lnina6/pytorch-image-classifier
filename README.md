@@ -1,4 +1,16 @@
 # pytorch-image-classifier
+    **Key Achievements:**      
+    .Designed and implemented an end-to-end deep learning pipeline for image classification using PyTorch
+    .Built a custom Convolutional Neural Network (CNN) with three convolutional layers and fully connected layers for FashionMNIST classification
+    .Applied L2 regularization and momentum-based SGD optimizer to improve model generalization and stability
+    .Developed data loaders for efficient batch processing and training-validation splitting
+    .Integrated precision, recall, and F1-score tracking to evaluate model performance across all classes
+    .Created confusion matrices and visualizations to analyze misclassifications and class-level accuracy
+    .Automated performance logging using TensorBoard for real-time loss monitoring
+    .Visualized training and validation curves, as well as classification metrics, across epochs
+    .Evaluated final model on a separate test set, achieving strong performance across multiple metrics
+
+
 1. Data Loading & Preprocessing
   Uses the FashionMNIST dataset (a dataset of grayscale clothing images: shirts, shoes, bags, etc.).
   Automatically downloads the data and applies transforms.ToTensor() to convert images into normalized PyTorch tensors.
